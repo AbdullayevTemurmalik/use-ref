@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #222;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 10px;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-header input {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.main-header button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.main-header button:hover {
+  background: #43a047;
+}
